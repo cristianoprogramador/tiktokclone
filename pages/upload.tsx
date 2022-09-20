@@ -76,7 +76,7 @@ const Upload = () => {
         <div>
           <div>
             <p className='text-2xl font-bold'>Upload Video</p>
-            <p className='text-md text-gray-400 mt-1'>Post a video to your account</p>
+            <p className='text-md text-gray-400 mt-1'>Poste um video na sua conta</p>
           </div>
           <div className='border-dashed rounded-xl border-4 border-gray-200 flex flex-col justify-center items-center outline-none mt-10 w-[260px] h-[460px] p-10 cursor-pointer hover:border-red-300 hover:bg-gray-100'>
             {isLoading ? (
@@ -106,13 +106,13 @@ const Upload = () => {
                         </p>
                       </div>
                       <p className='text-gray-400 text-center mt-10 text-sm leading-10'>
-                        MP4 or WebM or ogg <br />
-                        720x1280 or higher <br />
-                        Up to 10 minutes <br />
-                        Less than 2GB
+                        MP4 ou WebM ou ogg <br />
+                        720x1280 ou maior <br />
+                        Até 10 minutos <br />
+                        Menor que 2GB
                       </p>
                       <p className='bg-[#F51997] text-center mt-10 rounded text-white text-md font-medium p-2 w-52 outline-none'>
-                        Select File
+                        Selecione o arquivo
                       </p>
                     </div>
                     <input
@@ -127,7 +127,7 @@ const Upload = () => {
             )}
             {wrongFileType && (
               <p className='text-center text-xl text-red-400 font-semibold mt-4 w-[250px]'>
-                Please select a video file
+                Por favor selecione um arquivo de video
               </p>
             )}
           </div>
